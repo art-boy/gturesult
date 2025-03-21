@@ -101,7 +101,8 @@ select {
     background-color: rgba(156, 156, 243, 0.411);
     text-align: left;
     display: inline-block;
-    width: 500px;
+    width: 90%;
+    max-width: 600px;
     height: ;
     border: 2px solid rgba(0, 0, 255, 0.295);
     margin-top: 0;
@@ -116,12 +117,14 @@ footer {
     text-decoration-style: dashed;
     text-decoration-line: underline;
     text-decoration-color: rgb(155, 155, 40);
-    width: 800px;
+    width: 90%;
+    max-width: 900px;
     margin-left: 120px;
 }
 
 #pink {
     color: rgb(190, 51, 183);
     font-size: 11px;
-    padding-right: 5px;
+    text-align: center;
+    max-width: 100%;
 }
